@@ -1,0 +1,61 @@
+
+body {
+
+    background-color: aquamarine;
+
+}
+
+p {
+
+    width: max-content;
+    height: max-content;
+    padding: 10px;
+    background-color: antiquewhite;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    color: cornflowerblue;
+    border-radius: 2px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+
+}
+
+.div_1 , .div_2 , .div_3 {
+
+    width: max-content;
+    height: max-content;
+    border-radius: 4px;
+    border: none;
+    padding: 4px;
+    margin: 10px;
+    font-size: 20px;
+    font-family: Arial;
+    font-weight: bold;
+    display: inline;
+    background-color: lightcoral;
+    color: gold;
+
+}
+
+.div_3 {
+    display: none;
+}
+
+.div_0 {
+    width: max-content;
+    height: max-content;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.div_0:hover .div_3 {
+    display: block;
+}
+ 
+.div_1:active , .div_2:active , .div_3:active {
+    background-color: hsl(0, 78%, 90%)
+
+}
